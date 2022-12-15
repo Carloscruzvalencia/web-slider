@@ -47,67 +47,7 @@ main {
             }
         }
 
-        $menu-width: 45vw;
-        $menu-height: 27vh;
-        $title-color:rgb(31, 30, 30);
-        $description:rgb(52, 50, 50);
-
-        .product_menu {
-            width: 70vh;
-            height: 15vw;
-            grid-area: 1/1/2/1;
-            justify-self: center;
-            align-self: end;
-            margin-bottom: 5vh;
-            display: grid;
-            z-index: 5;
-
-            .product_menu-box1 {
-                grid-area: 1/1;
-                background-color: map-get($menu, "M1");
-                width: $menu-width;
-                height: $menu-height;
-                z-index: 3;
-                display: grid;
-                #item_title{
-                    font-size: 3em;
-                    color: $title-color;
-                    justify-self: center;
-                    align-self: center;
-                }
-                #item_description{
-                    text-align: center;
-                    color: $description;
-                    font-size: 1.5em;
-                }
-            }
-
-            .product_menu-box2 {
-                grid-area: 1/1;
-                background-color: map-get($menu, "M2");
-                width: $menu-width;
-                height: $menu-height;
-                z-index: 2;
-                transition: 1s;
-            }
-
-            .product_menu-box3 {
-                grid-area: 1/1;
-                background-color: map-get($menu, "M3");
-                width: $menu-width;
-                height: $menu-height;
-                z-index: 1;
-                transition: 1s;
-
-            }
-        }
-        .product_menu:hover .product_menu-box2 {
-            transform: translate(-9px, 7px);
-        }
-
-        .product_menu:hover .product_menu-box3 {
-            transform: translate(-16px, 16px);
-        }
+        
 
     }
 }
