@@ -43,5 +43,5 @@ setInterval(function () {
 
 setInterval(() => {
         document.getElementById("b"+slideN).style.transform ="translateY(-11vh) rotate(10deg)"
-        console.log("done")
+        // console.log("done")
 }, 2500);
