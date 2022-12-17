@@ -28,19 +28,14 @@ setInterval(() => {
     }
 }, 7000);
 
-
-
-
-// setInterval(() => {
-//     if (slideN <= 5) {
-//         document.getElementById("b" + slideN).style.transform = "translateY(-11vh) rotate(10deg)"
-//     } else {
-//         for (i = 1; i != 6; i++) {
-//             document.getElementById("b" + i).style.transform = "translateY(-11vh) rotate(0deg)"
-//         }
-//     }
-// }, 2200);
-
+setInterval(() => {
+    document.getElementById("b" + slideN).style.transform = "translateY(-11vh) rotate(10deg)"
+    if (slideN ==4 ){
+        for (i = 0 ; i != 4;i++){
+            document.getElementById("b" + i).style.transform = "translateY(-11vh) rotate(00deg)"
+        }
+    }
+}, 5000);
 
 
 
