@@ -5,9 +5,11 @@
 $menu-width: 45vw;
 $menu-height: 27vh;
 $title-font: 'Playfair Display SC', serif;
-$title-color: white;
-$description: rgb(203, 202, 202);
+$title-color: black;
+$description: rgb(49, 49, 49);
 
+*{
+}
 .product_menu {
     width: 70vh;
     height: 15vw;
@@ -33,9 +35,6 @@ $description: rgb(203, 202, 202);
             color: $title-color;
             justify-self: center;
             align-self: center;
-            text-decoration: underline;
-            text-decoration-thickness: from-font;
-            text-underline-position: from-font;
         }
 
         #item_description {
