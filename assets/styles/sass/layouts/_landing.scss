@@ -3,7 +3,7 @@
 main {
     width: 100vw;
     height: 100vh;
-    background-color: map-get($fondo, "FM" );
+    background-color: white;
 
     section {
         width: 100vw;
@@ -16,6 +16,13 @@ main {
             width: 100vw;
             height: 100vh;
             display: grid;
+            #sl0{
+                width: 100vw;
+                height: 100vh;
+                background-color: map-get($fondo , "FM" );
+                grid-area: 1/1;
+                transform: translate(0vw,0vw) ;
+            }
             #sl1{
                 width: 100vw;
                 height: 100vh;
