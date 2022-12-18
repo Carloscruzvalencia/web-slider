@@ -8,8 +8,7 @@ $title-font: 'Playfair Display SC', serif;
 $title-color: black;
 $description: rgb(49, 49, 49);
 
-*{
-}
+
 .product_menu {
     width: 70vh;
     height: 15vw;
@@ -34,15 +33,41 @@ $description: rgb(49, 49, 49);
             font-size: 3em;
             color: $title-color;
             justify-self: center;
+            align-self: start;
+            grid-area: 1/1;
+            transform: translateY(1.5vh);
+        }
+
+        #item_marc {
+            text-align: center;
+            color: $description;
+            font-size: 1.5em;
+            font-family: $title-font;
+            font-style: italic;
+            grid-area: 1/1;
             align-self: center;
+            transform: translateY(1.5vh);
+        }
+
+        #item_type {
+            text-align: center;
+            color: $description;
+            font-size: 1.2em;
+            // font-family: $title-font;
+            font-style: italic;
+            grid-area: 1/1;
+            align-self: end;
+            transform: translateY(-2vh);
         }
 
         #item_description {
             text-align: center;
             color: $description;
             font-size: 1.5em;
-            font-family: $title-color;
+            // font-family: $title-color;
             font-style: italic;
+            width: 33vw;
+            justify-self: center;
         }
     }
 

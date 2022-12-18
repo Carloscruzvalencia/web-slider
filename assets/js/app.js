@@ -41,15 +41,14 @@ setInterval(() => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // btype = ["Large bag", "Sathel", "Vintage", "Shoulder bag"]
-    // bmarcas = ["Dior", "Cartier", "Corf"]
-    bnames = ["My ABC dior", "Scala", "C de cartier", "C de cartier mini", "Dusky"]
+
+    bnames = ["My abc", "Scala", "C de cartier", "C de cartier mini", "Dusky"]
     new TypeIt("#item_title", {
         waitUntilVisible: false,
         cursor: false,
         loop: true
     })
-        .type(bnames[0])
+        .type(bnames[0]) //dior
         .exec(async () => {
             await new Promise((resolve, reject) => {
                 setTimeout(() => {
@@ -65,25 +64,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 }, 1000);
             });
         })
-        .type(bnames[1])
+
+        .type(bnames[1]) //scala
         .exec(async () => {
             await new Promise((resolve, reject) => {
                 setTimeout(() => {
                     return resolve();
-                }, 4500);
+                }, 5600);
             });
         })
         .delete()
-        .type(bnames[2])
+        .type(bnames[2]) //c de catier
         .exec(async () => {
             await new Promise((resolve, reject) => {
                 setTimeout(() => {
                     return resolve();
-                }, 4500);
+                }, 5600);
             });
         })
         .delete()
-        .type(bnames[3])
+        .type(bnames[3]) //c de cartier mini
         .exec(async () => {
             await new Promise((resolve, reject) => {
                 setTimeout(() => {
@@ -92,15 +92,203 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .delete()
-        .type(bnames[4])
+        .type(bnames[4]) //dusky
         .exec(async () => {
             await new Promise((resolve, reject) => {
                 setTimeout(() => {
                     return resolve();
-                }, 4500);
+                }, 6000);
             });
         })
         .delete()
         .go()
         .reset();
+
+    bmarcas = ["Dior", "Cartier", "Corf"]
+    new TypeIt("#item_marc", {
+        waitUntilVisible: false,
+        cursor: false,
+        loop: true
+    })
+        .type(bmarcas[0])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 5200);
+            });
+        })
+        .delete()
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 1000);
+            });
+        })
+        .type(bmarcas[2])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6200);
+            });
+        })
+        .delete()
+        .type(bmarcas[1])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6000);
+            });
+        })
+        .delete()
+        .type(bmarcas[1])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6000);
+            });
+        })
+        .delete()
+        .type(bmarcas[1])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6000);
+            });
+        })
+        .delete()
+        .go()
+        .reset();
+
+    btype = ["Large bag", "Sathel", "Vintage", "Shoulder bag"]
+    new TypeIt("#item_type", {
+        waitUntilVisible: false,
+        cursor: false,
+        loop: true
+    })
+        .type(btype[2])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 5200);
+            });
+        })
+        .delete()
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 1000);
+            });
+        })
+        .type(btype[3])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 4000);
+            });
+        })
+        .delete()
+        .type(btype[0])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6000);
+            });
+        })
+        .delete()
+        .type(btype[0])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6000);
+            });
+        })
+        .delete()
+        .type(btype[1])
+        .exec(async () => {
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    return resolve();
+                }, 6000);
+            });
+        })
+        .delete()
+        .go()
+        .reset();
+
+        // 
+        // 
+        // 
+        // The perfect size - but not too small - this purse is the perfect size for everyday use, and even makes a great carry-on.
+        new TypeIt("#item_description", {
+            waitUntilVisible: false,
+            cursor: false,
+            loop: true,
+            speed: 0
+        })
+            .type("Take a look at this dior bag and think of all the places you can carry it. You can carry it on the shoulder or the crossbody - it's the bag you need to have.")
+            .exec(async () => {
+                await new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        return resolve();
+                    }, 6000);
+                });
+            })
+            .delete()
+            .exec(async () => {
+                await new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        return resolve();
+                    }, 1000);
+                });
+            })
+            .type("Carry your necessities wherever you go with Corf. It’s an innovative purse that gives you more space and style.")
+            .exec(async () => {
+                await new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        return resolve();
+                    }, 6000);
+                });
+            })
+            .delete()
+            .type("The original Cartier Travel purse. Made with stitched calfskin and soft lambskin, this purse is as handsome as it is functional.")
+            .exec(async () => {
+                await new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        return resolve();
+                    }, 6000);
+                });
+            })
+            .delete()
+            .type("The original Cartier Travel purse. Made with stitched calfskin and soft lambskin, this purse is as handsome as it is functional.")
+            .exec(async () => {
+                await new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        return resolve();
+                    }, 7000);
+                });
+            })
+            .delete()
+            .type("The perfect size - but not too small - this purse is the perfect size for everyday use, and even makes a great carry-on.")
+            .exec(async () => {
+                await new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        return resolve();
+                    }, 6000);
+                });
+            })
+            .delete()
+            .go()
+            .reset();
+    
 });
