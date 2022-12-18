@@ -1,11 +1,11 @@
 ## Inpiracion del proyecto & objetivo
--  El objetivo del proyecto es aprender a crear un slider infinito en Javascript y a añadir animaciones de texto a un menu con typeit.js
+-  El objetivo del proyecto es aprender a crear un slider infinito en Javascript y a aï¿½adir animaciones de texto a un menu con typeit.js
 
 El diseÃ±o web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1) por Carlos cruz valencia
 
 Puedes visitar el proyecto en [Githubpages](https://carloscruzvalencia.github.io/Web-slider)
 
-## Links de interes -->
+## Links de interes
 link a correo
 <code> <a href="mailto:a2carcruzinfo@gmail.com"><img height="25" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a></code>
 <code><a a href="https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1"><img height="25" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></a></code>
