@@ -10,15 +10,14 @@ $description: rgb(49, 49, 49);
 
 
 .product_menu {
-    width: 70vh;
-    height: 15vw;
+    width: auto;
+    height: auto;
     grid-area: 1/1/1/3;
     justify-self: center;
     align-self: end;
     margin-bottom: 5vh;
     display: grid;
     z-index: 5;
-    transform: translate(-8vh, 1vw);
 
     .product_menu-box1 {
         grid-area: 1/1;
@@ -97,4 +96,40 @@ $description: rgb(49, 49, 49);
 
 .product_menu:hover .product_menu-box3 {
     transform: translate(-16px, 16px);
+}
+
+@media (max-width: 768px) {
+    .product_menu {
+
+        .product_menu-box1 {
+            width: 100vw !important;
+
+            #item_title {
+                font-size: 10vw !important;
+            }
+
+            #item_marc {
+                font-size: 5vw !important;
+            }
+
+            #item_type {
+                font-size: 2.5vw !important;
+            }
+
+            #item_description {
+                font-size: 3vw !important;
+                width: 70vw !important;
+            }
+        }
+
+        .product_menu-box2 {
+            width: 100vw !important;
+
+        }
+
+        .product_menu-box3 {
+            width: 100vw !important;
+
+        }
+    }
 }
