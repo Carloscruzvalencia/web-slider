@@ -1,8 +1,9 @@
-div{
+div {
     display: grid;
     grid-area: 1/1/1/3;
     z-index: 1;
-    .item{
+
+    .item {
         grid-area: 1/1;
         justify-self: center;
         align-self: center;
@@ -10,17 +11,28 @@ div{
         transform: translateY(-11vh);
         transition: 1s ease-in-out;
         transform-origin: center;
+        width: 24vw;
     }
-    .bkcirlce{
+
+    .bkcirlce {
         background-color: #fff;
         justify-self: center;
         align-self: center;
         grid-area: 1/1;
-        width: 450px;
-        height: 450px;
+        width: 25vw;
+        height: 50vh;
         border-radius: 100%;
         transform: translateY(-8vh);
 
     }
 }
 
+@media (max-width: 768px) {
+    .item{
+        width: 50vw !important;
+    }
+    .bkcirlce {
+        width: 60vw !important;
+        height: 30vh !important;
+    }
+}
