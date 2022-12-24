@@ -29,7 +29,7 @@ lenguajes/frameworks usados
 
 |Trabajando en el proyecto|:x:|
 | -------------------------- | :----------------: |
-| Web responsive          |Proximamente|
+| Web responsive          |:heavy_check_mark:|
 | Hosting                 |Githubpages|
 | Hosting disponible      |:heavy_check_mark:|  
 | Dispone de trello       |:x:| 
